@@ -43,18 +43,18 @@ It handles everything your fingers don’t want to:
 
 ## 🚀 **Features at a Glance**
 
-| 🏷️ Feature                | ✨ Description                                                      |
-|---------------------------||---------------------------------------------------------------------|
-| 🎣 Auto Fish Farm         | Catch fishing rewards and prizes automatically for the local player |
-| 🎮 Classic Macro          | Place & upgrade all 9 tower slots + sub‑towers automatically        |
-| 🔁 Auto Re‑queue          | Walk to portal, vote to start, loop endlessly                       |
-| 💵 Cash‑aware Logic       | Only places towers when you can afford them                         |
-| 🎯 Precise Clicks         | Zooms in, looks at the floor, clicks the hitbox perfectly           |
-| 🧩 Sub‑Tower Support      | Records multiple positions per main tower                           |
-| 💾 Save/Load              | All CFrames & place costs saved in JSON files                       |
-| 🔧 Custom Place Costs     | Set manual costs for any tower so the macro waits correctly         |
-| 🖥️ Clean Rayfield UI      | Toggle, dropdowns, inputs – intuitive & modern                      |
-| ⚡ Fast & Anti‑AFK        | Walks quickly, anti‑AFK built in, teleports to saved spots          |
+| 🏷️ Feature                 | ✨ Description                                                      |
+|-----------------------------|---------------------------------------------------------------------|
+| 🎣 Auto Fish Farm          | Catch fishing rewards and prizes automatically for the local player |
+| 🎮 Classic Macro           | Place & upgrade all 9 tower slots + sub‑towers automatically        |
+| 🔁 Auto Re‑queue           | Walk to portal, vote to start, loop endlessly                       |
+| 💵 Cash‑aware Logic        | Only places towers when you can afford them                         |
+| 🎯 Precise Clicks          | Zooms in, looks at the floor, clicks the hitbox perfectly           |
+| 🧩 Sub‑Tower Support       | Records multiple positions per main tower                           |
+| 💾 Save/Load               | All CFrames & place costs saved in JSON files                       |
+| 🔧 Custom Place Costs      | Set manual costs for any tower so the macro waits correctly         |
+| 🖥️ Clean Rayfield UI       | Toggle, dropdowns, inputs – intuitive & modern                      |
+| ⚡ Fast & Anti‑AFK         | Walks quickly, anti‑AFK built in, teleports to saved spots          |
 
 ---
 
