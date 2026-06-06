@@ -43,8 +43,9 @@ It handles everything your fingers don’t want to:
 
 ## 🚀 **Features at a Glance**
 
-| 🏷️ Feature                | ✨ Description                                                       |
-|---------------------------|---------------------------------------------------------------------|
+| 🏷️ Feature                | ✨ Description                                                      |
+|───────────────────────────||─────────────────────────────────────────────────────────────────────|
+| 🎣 Auto Fish Farm         | Catch fishing rewards and prizes automatically for the local player |
 | 🎮 Classic Macro          | Place & upgrade all 9 tower slots + sub‑towers automatically        |
 | 🔁 Auto Re‑queue          | Walk to portal, vote to start, loop endlessly                       |
 | 💵 Cash‑aware Logic       | Only places towers when you can afford them                         |
