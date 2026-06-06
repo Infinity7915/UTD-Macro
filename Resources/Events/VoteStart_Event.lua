@@ -3,4 +3,4 @@
 ]]
 
 local Event = game:GetService("ReplicatedStorage").Modules.GlobalInit.RemoteEvents.PlayerVoteToStartMatch
-Event:FireServer()
+Event:FireServer();
