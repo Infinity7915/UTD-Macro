@@ -59,7 +59,7 @@ It handles everything your fingers don’t want to:
 
 ## 🧰 **How to Use**
 
-1. **🔧 Load the script** place the script in your executors auto-execute folder.
+1. **🔧 Load the [script](https://raw.githubusercontent.com/Infinity7915/UTD-Macro/refs/heads/main/UTD_autoEXE.lua)** – place it in your executor's auto‑execute folder.
 2. **📋 Open the UI if closed** (default key: `K`).
 3. **🧐 ↓ Classic Match Set-up**
 4. **🎯 Record Tower CFrames**:
