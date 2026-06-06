@@ -841,7 +841,7 @@ Tab2:CreateToggle({
 
                 print("[CryoHub] In game | Cash:", cash.Value)
                 -- vote to start game
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/CryoScript/CryoHub/refs/heads/main/Resources.lua"))(true)
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity7915/UTD-Macro/refs/heads/main/Resources/Events/VoteStart_Event.lua"))(true)
                 RunClassicMacro()
 
 
