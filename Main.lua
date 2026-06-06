@@ -1,4 +1,9 @@
-local Cryo_Hub = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+--[[
+
+]]
+
+
+local Project_Infinity = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 --// Services
 local Players            = game:GetService("Players")
@@ -177,7 +182,7 @@ local CLASSIC_MAX_TOWERS = 9
 local ClassicSavePath    = "Classic_CryoHub_Towers.json"
 
 pcall(function()
-    if not isfolder("Cryo Hub") then makefolder("Cryo Hub") end
+    if not isfolder("Project Infinity") then makefolder("Project Infinity") end
 end)
 
 -- ─── Save ─────────────────────────────────────────────────────────────
@@ -199,14 +204,14 @@ local function SaveClassicTowers()
             end
         end
     end
-    writefile("Cryo Hub/" .. ClassicSavePath, HttpService:JSONEncode(data))
+    writefile("Project Infinity/" .. ClassicSavePath, HttpService:JSONEncode(data))
 end
 
 -- ─── Load ─────────────────────────────────────────────────────────────
 local function LoadClassicTowers()
-    if not (isfile and isfile("Cryo Hub/" .. ClassicSavePath)) then return end
+    if not (isfile and isfile("Project Infinity/" .. ClassicSavePath)) then return end
 
-    local decoded = HttpService:JSONDecode(readfile("Cryo Hub/" .. ClassicSavePath))
+    local decoded = HttpService:JSONDecode(readfile("Project Infinity/" .. ClassicSavePath))
 
     local towerSrc = decoded.towers or decoded
     for i, v in pairs(towerSrc) do
@@ -387,8 +392,8 @@ local function RunClassicMacro()
     local valid, missing = ValidatePlaceCosts()
     if not valid then
         MacroEnabled = false
-        Cryo_Hub:Notify({
-            Title    = "Cryo Hub — Macro Stopped",
+        Project_Infinity:Notify({
+            Title    = "Project Infinity — Macro Stopped",
             Content  = "Missing Place Cost for " .. missing .. ". Record all costs before running.",
             Duration = 6,
         })
@@ -435,19 +440,19 @@ end
 -- =====================================================================
 --  Rayfield Window
 -- =====================================================================
-local Window = Cryo_Hub:CreateWindow({
-    Name                   = "Cryo Hub",
+local Window = Project_Infinity:CreateWindow({
+    Name                   = "Project Infinity🪽",
     Icon                   = 71972989536496,
-    LoadingTitle           = "Welcome to Cryo Hub",
+    LoadingTitle           = "Welcome to Project Infinity",
     LoadingSubtitle        = "by pb_cryo",
-    ShowText               = "Cryo Hub",
+    ShowText               = "Project Infinity",
     Theme                  = "Amethyst",
     ToggleUIKeybind        = "K",
     DisableRayfieldPrompts = true,
     DisableBuildWarnings   = true,
     ConfigurationSaving    = {
         Enabled    = true,
-        FolderName = "Cryo Hub",
+        FolderName = "Project Infinity",
         FileName   = "CryoHubConfig",
     },
     Discord = {
@@ -457,7 +462,7 @@ local Window = Cryo_Hub:CreateWindow({
     },
     KeySystem   = false,
     KeySettings = {
-        Title           = "Cryo Hub",
+        Title           = "Project Infinity",
         Subtitle        = "Key System",
         Note            = "No method of obtaining the key is provided",
         FileName        = "CryohubKey",
@@ -684,8 +689,8 @@ Tab2:CreateButton({
                 end
             end)
 
-            Cryo_Hub:Notify({
-                Title    = "Cryo Hub",
+            Project_Infinity:Notify({
+                Title    = "Project Infinity",
                 Content  = "Cost " .. tostring(cost) .. " saved to Tower " .. towerIdx,
                 Duration = 3,
             })
@@ -693,8 +698,8 @@ Tab2:CreateButton({
 
         if not success then
             warn("[CryoHub] SetCost error:", err)
-            Cryo_Hub:Notify({
-                Title    = "Cryo Hub – Error",
+            Project_Infinity:Notify({
+                Title    = "Project Infinity – Error",
                 Content  = "Failed to set cost: " .. tostring(err),
                 Duration = 5,
             })
@@ -818,8 +823,8 @@ Tab2:CreateToggle({
 
                 if not HasAnyPlaceCost() then
                     MacroEnabled = false
-                    Cryo_Hub:Notify({
-                        Title    = "Cryo Hub — Macro Stopped",
+                    Project_Infinity:Notify({
+                        Title    = "Project Infinity — Macro Stopped",
                         Content  = "No Place Cost found. Set at least one tower's cost manually.",
                         Duration = 6,
                     })
@@ -877,4 +882,4 @@ Tab2:CreateDivider()
 -- =====================================================================
 --  Load saved Rayfield configuration
 -- =====================================================================
-Cryo_Hub:LoadConfiguration()
+Project_Infinity:LoadConfiguration()
