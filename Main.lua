@@ -1,5 +1,8 @@
 --[[
-
+    Credits:
+        1.Infinity🪽 developers
+        2. Chat_GPT, DeepSeek_AI, Claude_AI
+        3.
 ]]
 
 
