@@ -1,7 +1,6 @@
 <div align="center">
 
-![Banner]([https://via.placeholder.com/1000x200/7b2ff7/ffffff?text=Cryo+Hub+•+UTD+Macro](https://github.com/Infinity7915/UTD-Macro/blob/main/Resources/maxresdefault.jpg))  
-*(Replace with an actual banner image if you have one)*
+![Banner](https://raw.githubusercontent.com/Infinity7915/UTD-Macro/main/Resources/maxresdefault.jpg)
 
 </div>
 
